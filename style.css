@@ -1,0 +1,505 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.all_container{
+width: 100%;
+height: auto;
+border: 1px solid blue;
+}
+.banner{
+width: 100%;
+height: 861px;
+border: 1px solid black;
+display: flex;
+
+}
+.left_banner{
+width: 65%;
+height: 861px;
+/* border: 1px solid red; */
+background-color:#171B2B ;
+}
+.navbar{
+width: 100%;
+height: 80px;
+/* border: 1px solid gold; */
+display: flex;
+align-items: center;
+background-color: #171B2B;
+}
+.navbar>h1{
+display: 1px;
+color: #fff;
+padding-left: 150px;
+}
+.collaction{
+display: flex;
+padding-left: 178px;
+/* padding-right: 256px; */
+}
+.collaction>li{
+list-style: none;
+}
+.collaction>li>a{
+text-decoration:none;
+color: #fff;
+padding-right: 30px;
+}
+.collaction>li>a:hover{
+    cursor: pointer;
+    color: #777;
+}
+.h11{
+font-weight: 600;
+font-size: 21px;
+line-height: 24px;
+color: #FFFFFF;
+padding-top: 130px;
+padding-bottom: 20px;
+padding-left: 150px;
+}
+.h12{
+font-weight: bold;
+font-size: 70px;
+line-height: 84px;
+color: #FFFFFF;
+padding-left: 150px;
+}
+.p{
+padding-left: 150px;
+color: #FFFFFF;
+padding-top: 25px;
+font-size: 18px;
+line-height: 28px;
+}
+.btn{
+width: 562px;
+height: 62px;
+margin-left: 150px;
+margin-top: 46px;
+border-radius: 8px;
+background-color: #fff;
+display: flex;
+align-items: center;
+/* justify-content: space-around; */
+}
+.btn_p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #646464;
+    padding-left: 36px;
+}
+.btn>button{
+margin-left: 255px;
+width: 122px;
+height: 46px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+background: #FB5E16;
+border-radius: 6px;
+border: none;
+}
+.btn>button:hover{
+    cursor: pointer;
+    color: #ff4;
+}
+
+.righht_banner{
+width: 35%;
+height: 861px;
+/* border: 1px solid red; */
+background: #D6EDFF;
+background-image: url('./img/ios-15-stock-ipados-15-wwdc-21-hdr-3840x2160-5587.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+/* display: flex; */
+}
+.a{
+    display: flex;
+}
+.singin{
+margin-top: 50px;
+padding-left: 182px;
+text-decoration: none;
+list-style: none;
+}
+.singin>a{
+    text-decoration: none;
+    color: #000000;
+}
+.singin>a:hover{
+cursor: pointer;
+color: #888;
+}
+.a>button{
+    height: 40px;
+    width: 114px;
+margin-top: 41px;
+margin-left: 43px;
+background: #D6EDFF;
+}
+.a>button:hover{
+cursor: pointer;
+color: #888;
+}
+.banner_name{
+text-align: center;
+padding-top: 180px;
+}
+.exp{
+padding-top: 345px;
+padding-left: 212px;
+}
+.cards{
+width: 100%;
+height: 90vh;
+/* border: 2px solid red; */
+display: flex;
+
+}
+.card{
+width: 472px;
+height: 550px;
+/* border: 2px solid blue; */
+margin: auto;
+
+}
+.top{
+width: 100%;
+height: 65%;
+/* border: 2px solid #f8f; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.top>img{
+width: 236px;
+height: 236px;
+
+}
+.end{
+width: 100%;
+height: 195px;
+border: 2px solid #777;
+
+}
+.end>p{
+padding-top: 37px;
+padding-left: 24px;
+font-weight: 600;
+font-size: 28px;
+line-height: 32px;
+color: #1B213A;
+}
+hr{
+width: 80%;
+margin-left: 24px;
+}
+.cost{
+    display: flex;
+}
+.cost>p{
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FB5E16;
+    padding-left: 23px;
+    padding-top: 14px;
+}
+.cost>h5{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    padding-left: 23px;
+    padding-top: 14px;
+   
+}
+.p{
+    display: flex;  
+}
+.col{
+    display: flex;
+    
+}
+.col>li{
+list-style: none;
+margin-left: 24px;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #646464;
+}
+.banner2{
+    display: flex;
+}
+.ong{
+width: 462px;
+height: 462px;
+/* border: 1px solid dodgerblue; */
+margin-top: 282px;
+margin-left: 118px;
+}
+.ong>img{
+width: 100%;
+height: 100%;
+}
+.chap_p1{
+    margin-top: 273px;
+    margin-left: 260px;
+}
+.chap_p1{
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 28px;
+color: #FB5E16;
+margin-left: 160px;
+}
+.chap>h1{
+margin-top: 18px;
+margin-left: 160px;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+color: #1B213A;
+}
+.chap_p2{
+    margin-left: 160px;
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #646464; 
+}
+.chap>button{
+    margin-left: 160px;
+    width: 144px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FB5E16;
+    margin-top: 56px;
+    border: 1.5px solid #FB5E16;
+}
+.chap>button:hover{
+    cursor: pointer;
+}
+.cards_2_h1{
+    margin-top: 216px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+.btnn{
+    width: 100%;
+    height: 60px;
+    /* border:  1px solid red; */
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 62px;
+}
+.btnn>button{
+width: 197px;
+height: 48px;
+color: #FB5E16;
+font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+border: 1.5px solid #FB5E16;
+}
+.btnn>button:hover{
+cursor: pointer;
+
+}
+.banner3{
+width: 100%;
+height: 440px;
+/* border:  1px solid red; */
+background: #F2F2F2;
+text-align: center;
+}
+.image{
+margin-top: 88px;
+width: 78px;
+height: 78px;
+color: #A9BECE;
+}
+.banner3>h1{
+    padding-top: 31px;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.banner3_p1{
+    padding-top: 5px;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #646464;
+}
+.banner3_p2{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #646464;
+}
+.icons{
+    padding-bottom: 15px;
+    padding-top: 6px;
+}
+ .vectors{
+    position: relative;
+}
+.vec_chap{
+    position: absolute;
+   left: 392px;
+   top: -160px;
+}
+.vec_ong{
+    position: absolute;
+   left: 1092px;
+   top: -160px;
+} 
+.banner4{
+    text-align: center;
+    
+}
+.banner4_p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #666666;
+}
+.your_home{
+    font-weight: bold;
+font-size: 50px;
+line-height: 68px;
+color: #1B213A;
+margin-top: 180px;
+}
+
+
+
+.email_btn{
+    width: 496px;
+    height: 55px;
+    background: #F2F2F2;
+border-radius: 8px;
+display: flex;
+align-items: center;
+margin-left: 510px;
+margin-top: 43px;
+
+
+}
+.email_btn>p{
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #1B213A;
+padding-left: 26px;
+
+}
+
+.email_btn>button{
+    width: 99px;
+    height: 41px;
+margin-left: 221px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+background: #FB5E16;
+border-radius: 6px;
+border: none;
+}
+.email_btn>button:hover{
+cursor: pointer;
+color: #777;
+background-color: #bbb;
+
+}
+.footer{
+    width: 100%;
+    height: 447px;
+    /* border:  2px solid red; */
+     margin-top: 180px;
+     background: #F2F2F2;
+     display: flex;
+}
+.footer_left{
+width: 39%;
+height: 100%;
+/* border:  2px solid red; */
+}
+.footer_left>h1{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+padding-left: 150px;
+padding-top: 70px;
+}
+.footer_left>p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #666666;
+    padding-top: 19px;
+    padding-left: 150px;
+
+}
+.icon{
+padding-left: 150px;
+padding-top: 32px;
+}
+.footer_right{
+width: 69%;
+height: 100%;
+/* border:  2px solid blue; */
+display: flex;
+justify-content: space-around;
+}
+
+.coll>p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1B213A;
+    padding-top: 70px;
+}
+.collektion>.item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B213A;
+    padding-top: 33px;
+list-style: none;
+}
+.collektion>.item:hover{
+cursor: pointer;
+color: #bbb;
+
+}
